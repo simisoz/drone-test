@@ -18,6 +18,7 @@ steps:
     when:
       branch:
         - master
+        - develop
       event:
         - push
 trigger:
